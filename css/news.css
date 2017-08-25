@@ -43,6 +43,8 @@ ul.nav a{
     text-align: center;
     line-height: 40px;
     color: white;
+    cursor: pointer;
+
 }
 ul.drop-down-content a.first{
     margin-top: 25px;
