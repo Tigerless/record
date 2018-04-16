@@ -85,6 +85,7 @@ h3{
     background: url(../images/news-bg.jpg) center no-repeat #d3d3d3;
     margin: 0 auto;
     height: 125px;
+    min-width: 1423px;
 }
 .search-bg-container{
     margin: 0 auto;
@@ -230,6 +231,18 @@ h3{
     color: #4f4f4f;
     text-indent: 26px;
     margin-bottom: 12px;
+}
+.text p.second-title{
+    margin: 20px 0 20px 0;
+    height: 68px;
+    padding: 0 0 0 33px;
+    line-height: 68px;
+    text-indent: 26px;
+    font-family: "Microsoft YaHei UI";
+    font-weight: bold;
+    font-size: 18px;
+    color: #4f4f4f;
+    border-radius: 5px;
 }
 .text p.special-p1{
     text-indent: 600px;

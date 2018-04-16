@@ -1,5 +1,9 @@
+
 .header{
     background-color: #2f3e45;
+}
+.all-container{
+    width: 1170px;
 }
 .header-main .nav{
     float: right;
@@ -89,7 +93,6 @@ h3{
     width: 209px;
 }
 .slider-container{
-    margin: 0 auto;
     position: relative;
 }
 .search-icon{
@@ -129,7 +132,7 @@ h3{
 .login-container{
     position: absolute;
     bottom: 80px;
-    right: 130px;
+    right: 6%;
     width: 330px;
     height: 160px;
     background-color: rgba(256,256,256,0.7);
@@ -273,6 +276,7 @@ a.link-card:hover{
 .footer{
     background-color: #dcdcc5;
     height: 300px;
+    min-width: 1170px;
 }
 .footer-main{
     height: 75%;
@@ -319,4 +323,7 @@ a.link-card:hover{
 }
 .footer-bottom{
     text-align: center;
+    background-color: #dcdcc5;
+    width: 1170px;
+    margin: 0 auto;
 }

@@ -1,22 +1,24 @@
 *{padding: 0;margin: 0;}
 .slider{
-    width: 1423px;
-    height: 490px;
+    width: 1170px;
+    height: 460px;
     position: relative;
-    overflow: hidden;
+    overflow: visible;
     margin: 0 auto;
 }
-.slider img{
-    width: 1423px;
-    height: 490px;
-}
-.slider .content{
+.content{
+    height: 460px;
+    width: 1500px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: -100px;
 }
 .slider .content ul{
     width: 10000px;
     list-style: none;
     position: absolute;
-    left:0px;
+    left: 0;
 }
 .slider .content li {
     float: left;
